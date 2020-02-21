@@ -2,7 +2,7 @@ function input(value1) {
    document.getElementById("inputNumber").value+=value1;
 }
 function startButton() {
-  document.getElementById("inputNumber").value=0;
+  document.getElementById("inputNumber").value= '';
 }
 function equal() {
     document.getElementById("inputNumber").value = eval(document.getElementById("inputNumber").value);
